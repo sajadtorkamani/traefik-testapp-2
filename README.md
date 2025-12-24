@@ -2,10 +2,10 @@
 
 ## Getting started
 
-### Setup `jedi-traefik`
+### Setup `jedi-proxy`
 
-Ensure you've set up the `jedi-traefik` service from
-the [jedi-traefik](https://github.com/sajadtorkamani/jedi-traefik/tree/master)
+Ensure you've set up the `jedi-proxy` service from
+the [jedi-proxy](https://github.com/sajadtorkamani/jedi-proxy/tree/master)
 project.
 
 If you see the Traefik admin dashboard at http://localhost:8080, you should be
