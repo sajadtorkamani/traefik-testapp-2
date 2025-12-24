@@ -4,6 +4,7 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.network=jedi-proxy"
 
       # HTTPS router
       - "traefik.http.routers.traefik-testapp-2.entrypoints=websecure"
